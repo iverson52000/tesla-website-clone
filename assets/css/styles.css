@@ -56,8 +56,17 @@ ul.nav a:hover {
   color: white;
 }
 
+@media (min-width: 300px) {
+  .p-top {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0px;
+  }
+}
+
 .p-top {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: bold;
   font-family: Montserrat, sans-serif;
   margin-bottom: 0px;
@@ -201,5 +210,9 @@ ul.nav a:hover {
 
 #topview .container {
   margin-bottom: 150px;
+}
+
+#hero-top {
+  color: black;
 }
 
